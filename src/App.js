@@ -13,7 +13,11 @@ function App() {
       <div>
         <ul className='header navbar-container'>
           <div>
-            <h1>NAWAB</h1>
+            <h3>
+              <NavLink to='/' style={{ color: `#00ce89` }}>
+                NAWAB
+              </NavLink>
+            </h3>
           </div>
           <li>
             <NavLink to='/'>Home</NavLink>
