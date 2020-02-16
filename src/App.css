@@ -58,6 +58,9 @@ a {
   background-color: white;
   margin-top: 1rem;
 }
+.car-img {
+  width: 35%;
+}
 @media only screen and (max-width: 600px) {
   .about-container {
     width: 90%;
@@ -72,7 +75,8 @@ a {
   .main-content {
     width: 100%;
   }
-  .main-img-container {
-    margin: 3rem 0;
+  .car-img {
+    width: 55%;
+    margin-top: 1rem;
   }
 }

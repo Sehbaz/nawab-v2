@@ -21,11 +21,7 @@ class Home extends Component {
             </div>
             <div className='main-img-container'>
               <div style={{ display: `flex`, justifyContent: `center` }}>
-                <img
-                  src={MainImg}
-                  alt='main-image'
-                  style={{ width: `35%` }}
-                ></img>
+                <img className='car-img' src={MainImg} alt='main-image'></img>
               </div>
             </div>
           </div>
