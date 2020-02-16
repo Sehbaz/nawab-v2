@@ -10,9 +10,11 @@ import Stuff from "./Show";
 function App() {
   return (
     <HashRouter>
-      <div className='App'>
-        <h1>Simple SPA</h1>
-        <ul className='header'>
+      <div>
+        <ul className='header navbar-container'>
+          <div>
+            <h1>NAWAB</h1>
+          </div>
           <li>
             <NavLink to='/'>Home</NavLink>
           </li>
