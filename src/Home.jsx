@@ -17,10 +17,49 @@ class Home extends Component {
             </h4>
           </div>
         </div>
-        <div className='container'>
-          <h2>Hello</h2>
+        <div
+          className='container'
+          style={{
+            backgroundColor: `#e8eded`,
+            height: `fit-content`,
+            padding: `2rem`
+          }}
+        >
+          <div
+            className='about-container'
+            style={{
+              justifyContent: `center`,
+              display: `flex`,
+              flexWrap: `wrap`
+            }}
+          >
+            <h2 style={{ marginBottom: `2rem` }}>About us</h2>
+            <p
+              style={{
+                textAlign: `center`,
+                lineHeight: `1.7`,
+                margin: `1rem 0`
+              }}
+            >
+              We are patient and totally professional to handle your goals of
+              earning your driver's license. Service, Security, and Success is
+              what we are all about. Viva Driving School looks forward to
+              serving you
+            </p>
+          </div>
+          <div className='card-container'>
+            <div className='card'>
+              <h1>Hello</h1>
+            </div>
+            <div className='card'>
+              <h1>Hello</h1>
+            </div>
+            <div className='card'>
+              <h1>Hello</h1>
+            </div>
+          </div>
         </div>
-        <div className='container' style={{ backgroundColor: `#e8eded` }}>
+        <div className='container'>
           <h2>Hello</h2>
         </div>
       </div>

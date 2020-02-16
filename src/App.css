@@ -45,3 +45,26 @@ a {
   padding: 10%;
   background-color: #00023e;
 }
+.about-container {
+  width: 50%;
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.card {
+  width: 30%;
+  height: 400px;
+  background-color: white;
+  margin-top: 1rem;
+}
+@media only screen and (max-width: 600px) {
+  .about-container {
+    width: 90%;
+  }
+  .card {
+    width: 100%;
+  }
+}
