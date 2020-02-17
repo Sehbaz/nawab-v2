@@ -24,6 +24,11 @@ class Home extends Component {
                 <img className='car-img' src={MainImg} alt='main-image'></img>
               </div>
             </div>
+            <div style={{ display: `flex`, justifyContent: `center` }}>
+              <a href='#' class='myButton'>
+                07459775917
+              </a>
+            </div>
           </div>
         </div>
         <div
