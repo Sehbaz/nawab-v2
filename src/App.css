@@ -45,6 +45,9 @@ a {
   background-image: url("./images/main-bg11.png");
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
 }
 .about-container {
   width: 50%;
@@ -95,6 +98,7 @@ a {
   .main-container {
     flex-wrap: wrap;
     width: 100%;
+    background-image: url("./images/main-sm-bg11.png");
   }
   .main-content {
     width: 100%;
