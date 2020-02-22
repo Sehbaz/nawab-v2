@@ -12,8 +12,6 @@ body {
   justify-content: space-evenly;
   align-items: center;
   height: 60px;
-  background-color: black;
-  opacity: 0.76;
 }
 .navbar-container > li,
 a {
@@ -44,7 +42,7 @@ a {
   color: white;
   padding: 10%;
   background-color: #00023e;
-  background-image: url("./images/main-bg11.jpg");
+  background-image: url("./images/main-bg11.png");
   background-repeat: no-repeat;
   background-size: cover;
 }

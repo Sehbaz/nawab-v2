@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import MainImg from "./images/car.png";
 
 class Home extends Component {
   render() {
