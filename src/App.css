@@ -12,6 +12,8 @@ body {
   justify-content: space-evenly;
   align-items: center;
   height: 60px;
+  background-color: black;
+  opacity: 0.76;
 }
 .navbar-container > li,
 a {
@@ -24,7 +26,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 90vh;
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -42,6 +44,9 @@ a {
   color: white;
   padding: 10%;
   background-color: #00023e;
+  background-image: url("./images/main-bg11.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .about-container {
   width: 50%;
@@ -62,9 +67,8 @@ a {
   width: 35%;
 }
 .myButton {
-  box-shadow: 0px 10px 14px -7px #00ce89;
   background-color: #44c767;
-  border-radius: 8px;
+  border-radius: 2px;
   display: inline-block;
   cursor: pointer;
   color: #ffffff;
@@ -83,6 +87,9 @@ a {
 @media only screen and (max-width: 600px) {
   .about-container {
     width: 90%;
+  }
+  .container {
+    height: 80vh;
   }
   .card {
     width: 100%;

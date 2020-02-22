@@ -9,21 +9,18 @@ class Home extends Component {
           <div>
             <div>
               <h1 style={{ fontSize: `3rem`, color: `white` }}>
-                Let's Get You On The Road
+                NAWAB SCHOOL OF MOTORING
               </h1>
-              <h4>
+              <h3 style={{}}>Let's Get You On The Road</h3>
+              <p>
                 {" "}
                 Our driving school is a pupil focused school. Driving
                 instructors are fully DVSA qualified and Approved Driving
                 Instructors (ADI’s) and provide a professional and courteous
                 service.
-              </h4>
+              </p>
             </div>
-            <div className='main-img-container'>
-              <div style={{ display: `flex`, justifyContent: `center` }}>
-                <img className='car-img' src={MainImg} alt='main-image'></img>
-              </div>
-            </div>
+
             <div style={{ display: `flex`, justifyContent: `center` }}>
               <a href='#' class='myButton'>
                 07459775917
