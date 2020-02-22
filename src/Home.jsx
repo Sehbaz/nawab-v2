@@ -1,4 +1,7 @@
 import React, { Component } from "react";
+import Pickup from "./images/pickup.png";
+import Discount from "./images/coupon.png";
+import Savemoney from "./images/save-money.png";
 
 class Home extends Component {
   render() {
@@ -21,7 +24,7 @@ class Home extends Component {
             </div>
 
             <div style={{ display: `flex`, justifyContent: `center` }}>
-              <a href='#' class='myButton'>
+              <a href='' class='myButton'>
                 07459775917
               </a>
             </div>
@@ -30,7 +33,6 @@ class Home extends Component {
         <div
           className='container'
           style={{
-            backgroundColor: `#e8eded`,
             height: `fit-content`,
             padding: `2rem`
           }}
@@ -43,7 +45,7 @@ class Home extends Component {
               flexWrap: `wrap`
             }}
           >
-            <h2 style={{ marginBottom: `2rem` }}>About us</h2>
+            <h1 style={{ marginBottom: `2rem` }}>About us</h1>
             <p
               style={{
                 textAlign: `center`,
@@ -53,19 +55,22 @@ class Home extends Component {
             >
               We are patient and totally professional to handle your goals of
               earning your driver's license. Service, Security, and Success is
-              what we are all about. Viva Driving School looks forward to
+              what we are all about. Nawab Driving School looks forward to
               serving you
             </p>
           </div>
           <div className='card-container'>
             <div className='card'>
-              <h1>Hello</h1>
+              <h3>Door to Door Service</h3>
+              <img src={Pickup} className='card-img'></img>
             </div>
             <div className='card'>
-              <h1>Hello</h1>
+              <h3>Block Booking Discounts</h3>
+              <img src={Discount} className='card-img'></img>
             </div>
             <div className='card'>
-              <h1>Hello</h1>
+              <h3>No Extra Cost for Evenings/Weekends</h3>
+              <img src={Savemoney} className='card-img'></img>
             </div>
           </div>
         </div>

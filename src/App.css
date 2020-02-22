@@ -60,12 +60,17 @@ a {
 }
 .card {
   width: 30%;
-  height: 400px;
+  height: 200px;
   background-color: white;
   margin-top: 1rem;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
 }
-.car-img {
-  width: 35%;
+.card-img {
+  width: 5vw;
 }
 .myButton {
   background-color: #44c767;
@@ -95,6 +100,9 @@ a {
   .card {
     width: 100%;
   }
+  .card-img {
+    width: 10px;
+  }
   .main-container {
     flex-wrap: wrap;
     width: 100%;
@@ -106,5 +114,8 @@ a {
   .car-img {
     width: 55%;
     margin-top: 1rem;
+  }
+  .card-img {
+    width: 15vw;
   }
 }
