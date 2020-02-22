@@ -74,7 +74,10 @@ class Home extends Component {
             </div>
           </div>
         </div>
-        <div className='container'>
+        <div
+          className='container'
+          style={{ backgroundColor: `hsl(0, 0%, 29%)` }}
+        >
           <h2>Hello</h2>
         </div>
       </div>
