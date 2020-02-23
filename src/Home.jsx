@@ -21,6 +21,9 @@ class Home extends Component {
                 Instructors (ADI’s) and provide a professional and courteous
                 service.
               </p>
+              <div className='myButton'>
+                Driving Lessons Starting From £24/hr
+              </div>
             </div>
           </div>
         </div>
@@ -70,9 +73,58 @@ class Home extends Component {
         </div>
         <div
           className='container'
-          style={{ backgroundColor: `hsl(0, 0%, 29%)` }}
+          style={{
+            height: `fit-content`,
+            padding: `2rem`,
+            backgroundColor: `#f7f7f7`
+          }}
         >
-          <h2>Hello</h2>
+          <div
+            className='about-container'
+            style={{
+              justifyContent: `center`,
+              display: `flex`,
+              flexWrap: `wrap`
+            }}
+          >
+            <h1 style={{ marginBottom: `2rem` }}>Our Pricing</h1>
+          </div>
+          <div className='card-container'>
+            <div className='price-card'>
+              <h1>£230</h1>
+              <p>Your First 10 hour block booking</p>
+            </div>
+            <div className='price-card'>
+              <h1>£115</h1>
+              <p>Standard 5 hrs Block Booking</p>
+            </div>
+            <div className='price-card'>
+              <h1>£230</h1>
+              <p>Standard 10 hrs Block Booking</p>
+            </div>
+            <div className='price-card'>
+              <h1>£440</h1>
+              <p>Standard 20 hrs Block Booking</p>
+            </div>
+          </div>
+          <div className='card-container'>
+            <div className='price-card'>
+              <h1>£24/h </h1>
+              <p>Standard Driving Lesson (within Leicester)</p>
+            </div>
+            <div className='price-card'>
+              <h1>£30/h </h1>
+              <p>Standard Driving Lesson (outside Leicester)</p>
+            </div>
+            <div className='price-card'>
+              <h1>£30/h</h1>
+              <p>Motorway Tuition</p>
+            </div>
+            <div className='price-card'>
+              <h1>£27</h1>
+              <p>Refresher Course</p>
+            </div>
+          </div>
         </div>
       </div>
     );
