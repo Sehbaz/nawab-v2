@@ -130,37 +130,37 @@ class Home extends Component {
             </div>
           </div>
           <div className='card-container'>
-            <div className='price-card'>
+            <div className='price-card' style={{ backgroundColor: `#ED4C67` }}>
               <h1>£440</h1>
               <p>Standard 20 hrs Block Booking</p>
             </div>
-            <div className='price-card'>
+            <div className='price-card' style={{ backgroundColor: `#ED4C67` }}>
               <h1>£24/h </h1>
               <p>Standard Driving Lesson (within Leicester)</p>
             </div>
-            <div className='price-card'>
+            <div className='price-card' style={{ backgroundColor: `#ED4C67` }}>
               <h1>£30/h </h1>
               <p>Standard Driving Lesson (outside Leicester)</p>
             </div>
-            <div className='price-card'>
+            <div className='price-card' style={{ backgroundColor: `#ED4C67` }}>
               <h1>£30/h</h1>
               <p>Motorway Tuition</p>
             </div>
           </div>
           <div className='card-container'>
-            <div className='price-card'>
+            <div className='price-card' style={{ backgroundColor: `#F79F1F` }}>
               <h1>£27</h1>
               <p>Refresher Course</p>
             </div>
-            <div className='price-card'>
+            <div className='price-card' style={{ backgroundColor: `#F79F1F` }}>
               <h1>£180 </h1>
               <p>Standard Driving Lesson (within Leicester)</p>
             </div>
-            <div className='price-card'>
+            <div className='price-card' style={{ backgroundColor: `#F79F1F` }}>
               <h1>£80</h1>
               <p>Test WeekDay Fee: Hire of car & 1hr lesson before test</p>
             </div>
-            <div className='price-card'>
+            <div className='price-card' style={{ backgroundColor: `#F79F1F` }}>
               <h1>£100</h1>
               <p>Test Weekend Fee: Hire of car & 1hr lesson before test</p>
             </div>
