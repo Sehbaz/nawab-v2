@@ -91,6 +91,10 @@ class Home extends Component {
           </div>
           <div className='card-container'>
             <div className='price-card'>
+              <h1>£22/h</h1>
+              <p>Driving Lessons As Low As</p>
+            </div>
+            <div className='price-card'>
               <h1>£230</h1>
               <p>Your First 10 hour block booking</p>
             </div>
@@ -102,12 +106,12 @@ class Home extends Component {
               <h1>£230</h1>
               <p>Standard 10 hrs Block Booking</p>
             </div>
+          </div>
+          <div className='card-container'>
             <div className='price-card'>
               <h1>£440</h1>
               <p>Standard 20 hrs Block Booking</p>
             </div>
-          </div>
-          <div className='card-container'>
             <div className='price-card'>
               <h1>£24/h </h1>
               <p>Standard Driving Lesson (within Leicester)</p>
@@ -120,9 +124,23 @@ class Home extends Component {
               <h1>£30/h</h1>
               <p>Motorway Tuition</p>
             </div>
+          </div>
+          <div className='card-container'>
             <div className='price-card'>
               <h1>£27</h1>
               <p>Refresher Course</p>
+            </div>
+            <div className='price-card'>
+              <h1>£180 </h1>
+              <p>Standard Driving Lesson (within Leicester)</p>
+            </div>
+            <div className='price-card'>
+              <h1>£80</h1>
+              <p>Test WeekDay Fee: Hire of car & 1hr lesson before test</p>
+            </div>
+            <div className='price-card'>
+              <h1>£100</h1>
+              <p>Test Weekend Fee: Hire of car & 1hr lesson before test</p>
             </div>
           </div>
         </div>
