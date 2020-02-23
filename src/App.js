@@ -1,11 +1,9 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
-import Main from "./components/main";
-import Navbar from "./components/navbar";
 import { Route, NavLink, HashRouter } from "react-router-dom";
 import Home from "./Home";
-import Stuff from "./Show";
+import Show from "./Show";
+import Routes from "./Routes.js";
 
 function App() {
   return (
@@ -23,16 +21,17 @@ function App() {
             <NavLink to='/'>Home</NavLink>
           </li>
           <li>
-            <NavLink to='/stuff'>Show/Tell</NavLink>
+            <NavLink to='/show'>Show/Tell</NavLink>
           </li>
           <li>
-            <NavLink to='/contact'>Route</NavLink>
+            <NavLink to='/route'>Route</NavLink>
           </li>
         </ul>
         <div className='content'>
           {" "}
           <Route exact path='/' component={Home} />
-          <Route path='/stuff' component={Stuff} />
+          <Route path='/show' component={Show} />
+          <Route path='/route' component={Routes} />
         </div>
       </div>
     </HashRouter>
