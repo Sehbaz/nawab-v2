@@ -2,6 +2,9 @@ import React, { Component } from "react";
 import Pickup from "./images/pickup.png";
 import Discount from "./images/coupon.png";
 import Savemoney from "./images/save-money.png";
+import Fade from "react-reveal/Fade";
+import Spin from "react-reveal/Spin";
+import Pulse from "react-reveal/Pulse";
 
 class Home extends Component {
   render() {
@@ -10,20 +13,25 @@ class Home extends Component {
         <div className='main-container'>
           <div>
             <div>
-              <h1 style={{ fontSize: `3rem`, color: `white` }}>
-                NAWAB SCHOOL OF MOTORING
-              </h1>
-              <h3 style={{}}>Let's Get You On The Road</h3>
-              <p>
+              <Fade>
+                <h1 style={{ fontSize: `3rem`, color: `white` }}>
+                  NAWAB SCHOOL OF MOTORING
+                </h1>
+                <h3 style={{}}>Let's Get You On The Road</h3>
+                <p>
+                  {" "}
+                  Our driving school is a pupil focused school. Driving
+                  instructors are fully DVSA qualified and Approved Driving
+                  Instructors (ADI’s) and provide a professional and courteous
+                  service.
+                </p>
+              </Fade>
+              <Fade top>
                 {" "}
-                Our driving school is a pupil focused school. Driving
-                instructors are fully DVSA qualified and Approved Driving
-                Instructors (ADI’s) and provide a professional and courteous
-                service.
-              </p>
-              <div className='myButton'>
-                Driving Lessons Starting From £22/hr
-              </div>
+                <div className='myButton'>
+                  Driving Lessons Starting From £22/hr
+                </div>
+              </Fade>
             </div>
           </div>
         </div>
@@ -43,34 +51,45 @@ class Home extends Component {
             }}
           >
             <h1 style={{ marginBottom: `2rem` }}>About us</h1>
-            <p
-              style={{
-                textAlign: `center`,
-                lineHeight: `1.7`,
-                margin: `1rem 0`
-              }}
-            >
-              We are patient and totally professional to handle your goals of
-              earning your driver's license. Service, Security, and Success is
-              what we are all about. Nawab Driving School looks forward to
-              serving you
-            </p>
-            <div className='myButton'>07977589345 JUST A CALL AWAY</div>
+            <Fade>
+              <p
+                style={{
+                  textAlign: `center`,
+                  lineHeight: `1.7`,
+                  margin: `1rem 0`
+                }}
+              >
+                We are patient and totally professional to handle your goals of
+                earning your driver's license. Service, Security, and Success is
+                what we are all about. Nawab Driving School looks forward to
+                serving you
+              </p>
+            </Fade>
+            <Fade top>
+              <div className='myButton'>07977589345 JUST A CALL AWAY</div>
+            </Fade>
           </div>
           <div className='card-container'>
             <div className='card'>
               <h3>Door to Door Service</h3>
-              <img src={Pickup} className='card-img'></img>
+              <Pulse>
+                <img src={Pickup} className='card-img'></img>
+              </Pulse>
             </div>
             <div className='card'>
               <h3>Block Booking Discounts</h3>
-              <img src={Discount} className='card-img'></img>
+              <Spin>
+                {" "}
+                <img src={Discount} className='card-img'></img>
+              </Spin>
             </div>
             <div className='card'>
               <h3 style={{ textAlign: `center` }}>
                 No Extra Cost for Evenings/Weekends
               </h3>
-              <img src={Savemoney} className='card-img'></img>
+              <Pulse>
+                <img src={Savemoney} className='card-img'></img>
+              </Pulse>
             </div>
           </div>
         </div>

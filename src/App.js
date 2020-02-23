@@ -4,6 +4,7 @@ import { Route, NavLink, HashRouter } from "react-router-dom";
 import Home from "./Home";
 import Show from "./Show";
 import Routes from "./Routes.js";
+import Zoom from "react-reveal/Zoom";
 
 function App() {
   return (
