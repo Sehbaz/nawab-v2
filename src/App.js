@@ -23,10 +23,10 @@ function App() {
             <NavLink to='/'>Home</NavLink>
           </li>
           <li>
-            <NavLink to='/stuff'>Stuff</NavLink>
+            <NavLink to='/stuff'>Show/Tell</NavLink>
           </li>
           <li>
-            <NavLink to='/contact'>Contact</NavLink>
+            <NavLink to='/contact'>Route</NavLink>
           </li>
         </ul>
         <div className='content'>

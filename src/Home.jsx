@@ -22,7 +22,7 @@ class Home extends Component {
                 service.
               </p>
               <div className='myButton'>
-                Driving Lessons Starting From £24/hr
+                Driving Lessons Starting From £22/hr
               </div>
             </div>
           </div>
@@ -55,6 +55,7 @@ class Home extends Component {
               what we are all about. Nawab Driving School looks forward to
               serving you
             </p>
+            <div className='myButton'>07977589345 JUST A CALL AWAY</div>
           </div>
           <div className='card-container'>
             <div className='card'>
@@ -66,7 +67,9 @@ class Home extends Component {
               <img src={Discount} className='card-img'></img>
             </div>
             <div className='card'>
-              <h3>No Extra Cost for Evenings/Weekends</h3>
+              <h3 style={{ textAlign: `center` }}>
+                No Extra Cost for Evenings/Weekends
+              </h3>
               <img src={Savemoney} className='card-img'></img>
             </div>
           </div>
