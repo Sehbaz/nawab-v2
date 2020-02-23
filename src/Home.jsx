@@ -22,12 +22,6 @@ class Home extends Component {
                 service.
               </p>
             </div>
-
-            <div style={{ display: `flex`, justifyContent: `center` }}>
-              <a href='' class='myButton'>
-                07459775917
-              </a>
-            </div>
           </div>
         </div>
         <div
