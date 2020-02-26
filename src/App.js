@@ -6,6 +6,7 @@ import Show from "./Show";
 import Routes from "./Routes.js";
 import Zoom from "react-reveal/Zoom";
 import ShowDoc from "./Documents/show-doc.pdf";
+import MainLogo from "./images/main-logo.jpeg";
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
           <div>
             <h3>
               <NavLink to='/' style={{ color: `#00ce89` }}>
-                NAWAB
+                <img src={MainLogo} style={{ height: `18px` }}></img>
               </NavLink>
             </h3>
           </div>
