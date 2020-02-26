@@ -5,6 +5,7 @@ import Home from "./Home";
 import Show from "./Show";
 import Routes from "./Routes.js";
 import Zoom from "react-reveal/Zoom";
+import ShowDoc from "./Documents/show-doc.pdf";
 
 function App() {
   return (
@@ -22,7 +23,9 @@ function App() {
             <NavLink to='/'>Home</NavLink>
           </li>
           <li>
-            <NavLink to='/show'>Show/Tell</NavLink>
+            <a href={ShowDoc} target='_blank'>
+              Show/Tell
+            </a>
           </li>
           <li>
             <NavLink to='/route'>Route</NavLink>
