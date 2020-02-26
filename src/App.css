@@ -19,7 +19,9 @@ a {
   text-decoration: none;
   list-style-type: none;
   color: black;
-  font-size: 1rem;
+}
+.navlink {
+  font-size: 1em;
 }
 .container {
   display: flex;
@@ -114,6 +116,9 @@ a {
   .about-container {
     width: 90%;
   }
+  .navbar-container {
+    height: 40px;
+  }
 
   .card {
     width: 100%;
@@ -128,6 +133,12 @@ a {
     flex-wrap: wrap;
     width: 100%;
     background-image: url("./images/main-sm-bg11.png");
+  }
+  .navlink {
+    font-size: 1em;
+  }
+  .navlink {
+    font-size: 0.7em;
   }
   .main-content {
     width: 100%;
