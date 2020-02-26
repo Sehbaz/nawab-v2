@@ -12,7 +12,6 @@ body {
   justify-content: space-evenly;
   align-items: center;
   height: 60px;
-  position: fixed-top;
 }
 .navbar-container > li,
 a {
@@ -53,6 +52,9 @@ a {
 }
 .about-container {
   width: 50%;
+}
+.mainLogo {
+  height: 1rem;
 }
 .card-container {
   display: flex;
@@ -135,11 +137,9 @@ a {
     background-image: url("./images/main-sm-bg11.png");
   }
   .navlink {
-    font-size: 1em;
+    font-size: 0.8rem;
   }
-  .navlink {
-    font-size: 0.7em;
-  }
+
   .main-content {
     width: 100%;
   }

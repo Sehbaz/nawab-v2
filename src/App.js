@@ -16,7 +16,7 @@ function App() {
           <div>
             <h3>
               <NavLink to='/' style={{ color: `#00ce89` }}>
-                <img src={MainLogo} style={{ height: `1rem` }}></img>
+                <img src={MainLogo} className='mainLogo'></img>
               </NavLink>
             </h3>
           </div>
