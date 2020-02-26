@@ -18,6 +18,7 @@ a {
   text-decoration: none;
   list-style-type: none;
   color: black;
+  font-family: "Noto Sans", sans-serif;
 }
 .navlink {
   font-size: 1em;
