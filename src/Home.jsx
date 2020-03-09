@@ -8,49 +8,86 @@ import Pulse from "react-reveal/Pulse";
 import MainImage from "./images/main-bg2.png";
 import Mycar from "./images/my-car.svg";
 import Correct from "./images/correct.svg";
+import Noextra from "./images/door.svg";
+import DiscountBlock from "./images/discount.svg";
+import Door from "./images/door.svg";
 
 class Home extends Component {
   render() {
     return (
       <div>
-        <div className='main-container flex-container'>
-          <h1 className='big-title'>
-            Nawab School Of <span style={{ color: "#604dd5" }}>Driving</span>{" "}
-          </h1>
-          <div className='flex-container'>
-            <div className='main-title'>
-              <img
-                src={Correct}
-                style={{ width: `19px`, paddingRight: `10px` }}
-              ></img>
-              <p> Male and Female Instructors</p>
-            </div>
-            <div className='main-title'>
-              <img
-                src={Correct}
-                style={{ width: `19px`, paddingRight: `10px` }}
-              ></img>
-              <p> Comfortable Driving Lessons</p>
-            </div>
-            <div className='main-title'>
-              <img
-                src={Correct}
-                style={{ width: `19px`, paddingRight: `10px` }}
-              ></img>
-              <p>Top driving School in Leicester</p>
-            </div>
-          </div>
-          <div className='myButton'>
+        <div>
+          <div className='main-container flex-container'>
+            <h1 className='big-title'>
+              Nawab School Of <span style={{ color: "#604dd5" }}>Driving</span>{" "}
+            </h1>
             <div className='flex-container'>
-              <p>Book a Lesson</p>
-              <p>07459775917</p>
+              <div className='main-title'>
+                <img
+                  src={Correct}
+                  style={{ width: `19px`, paddingRight: `10px` }}
+                ></img>
+                <p> Male and Female Instructors</p>
+              </div>
+              <div className='main-title'>
+                <img
+                  src={Correct}
+                  style={{ width: `19px`, paddingRight: `10px` }}
+                ></img>
+                <p> Comfortable Driving Lessons</p>
+              </div>
+              <div className='main-title'>
+                <img
+                  src={Correct}
+                  style={{ width: `19px`, paddingRight: `10px` }}
+                ></img>
+                <p>Top driving School in Leicester</p>
+              </div>
             </div>
-          </div>
-          <div className='main-img-container'>
-            <img src={Mycar}></img>
+            <div className='myButton'>
+              <div className='flex-container'>
+                <p>Book a Lesson</p>
+                <p>07459775917</p>
+              </div>
+            </div>
+            <div className='main-img-container'>
+              <img src={Mycar}></img>
+            </div>
           </div>
         </div>
-        <div className='main-container'></div>
+        <div className='section2 '>
+          <div className='medium-title'>
+            {" "}
+            <h1>A better way to </h1>
+            <h1>learn to drive you car</h1>
+          </div>
+          <div className='flex-container box-container'>
+            <div className='box flex-container flex-box-container'>
+              {" "}
+              <img src={Door}></img>
+            </div>
+            <div className='box flex-container flex-box-container'>
+              <h1>Door to door service</h1>
+            </div>
+          </div>
+          <div className='flex-container box-container'>
+            <div className='box flex-container flex-box-container'>
+              <img src={DiscountBlock}></img>
+            </div>
+            <div className='box flex-container flex-box-container'>
+              <h1> Block booking discount</h1>
+            </div>
+          </div>
+          <div className='flex-container box-container'>
+            <div className='box flex-container flex-box-container'>
+              {" "}
+              <img src={Noextra}></img>
+            </div>
+            <div className='box flex-container flex-box-container'>
+              <h1>No extra cost for weekends</h1>
+            </div>
+          </div>
+        </div>
       </div>
     );
   }
