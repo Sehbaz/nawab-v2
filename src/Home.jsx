@@ -1,11 +1,6 @@
 import React, { Component } from "react";
-import Pickup from "./images/pickup.png";
-import Discount from "./images/coupon.png";
-import Savemoney from "./images/save-money.png";
 import Fade from "react-reveal/Fade";
-import Spin from "react-reveal/Spin";
-import Pulse from "react-reveal/Pulse";
-import MainImage from "./images/main-bg2.png";
+import Jump from "react-reveal/Jump";
 import Mycar from "./images/my-car.svg";
 import Correct from "./images/correct.svg";
 import Noextra from "./images/noextra.svg";
@@ -18,38 +13,43 @@ class Home extends Component {
       <div>
         <div>
           <div className='main-container flex-container'>
-            <h1 className='big-title'>
-              Nawab School Of <span style={{ color: "#604dd5" }}>Driving</span>{" "}
-            </h1>
-            <div className='flex-container'>
-              <div className='main-title'>
-                <img
-                  src={Correct}
-                  style={{ width: `19px`, paddingRight: `10px` }}
-                ></img>
-                <p> Male and Female Instructors</p>
-              </div>
-              <div className='main-title'>
-                <img
-                  src={Correct}
-                  style={{ width: `19px`, paddingRight: `10px` }}
-                ></img>
-                <p> Comfortable Driving Lessons</p>
-              </div>
-              <div className='main-title'>
-                <img
-                  src={Correct}
-                  style={{ width: `19px`, paddingRight: `10px` }}
-                ></img>
-                <p>Top driving School in Leicester</p>
-              </div>
-            </div>
-            <div className='myButton'>
+            <Fade bottom>
+              <h1 className='big-title'>
+                Nawab School Of{" "}
+                <span style={{ color: "#604dd5" }}>Driving</span>{" "}
+              </h1>
               <div className='flex-container'>
-                <p>Book a Lesson</p>
-                <p>07459775917</p>
+                <div className='main-title'>
+                  <img
+                    src={Correct}
+                    style={{ width: `19px`, paddingRight: `10px` }}
+                  ></img>
+                  <p> Male and Female Instructors</p>
+                </div>
+                <div className='main-title'>
+                  <img
+                    src={Correct}
+                    style={{ width: `19px`, paddingRight: `10px` }}
+                  ></img>
+                  <p> Comfortable Driving Lessons</p>
+                </div>
+                <div className='main-title'>
+                  <img
+                    src={Correct}
+                    style={{ width: `19px`, paddingRight: `10px` }}
+                  ></img>
+                  <p>Top driving School in Leicester</p>
+                </div>
               </div>
-            </div>
+            </Fade>
+            <Fade top>
+              <div className='myButton'>
+                <div className='flex-container'>
+                  <p>Book a Lesson</p>
+                  <p>07459775917</p>
+                </div>
+              </div>
+            </Fade>
             <div className='main-img-container'>
               <img src={Mycar}></img>
             </div>
@@ -58,8 +58,10 @@ class Home extends Component {
         <div className='section2 '>
           <div className='medium-title'>
             {" "}
-            <h1>A better way to </h1>
-            <h1>learn to drive you car</h1>
+            <Fade>
+              <h1>A better way to </h1>
+              <h1>learn to drive you car</h1>
+            </Fade>
           </div>
           <div className='flex-container box-container'>
             <div className='box flex-container flex-box-container'>
@@ -102,11 +104,13 @@ class Home extends Component {
           </div>
         </div>
         <div className='flex-container section-3'>
-          <h1>
-            Our driving school is a pupil focused school. Driving instructors
-            are fully DVSA qualified and Approved Driving Instructors (ADI’s)
-            and provide a professional and courteous service.
-          </h1>
+          <Jump>
+            <h1>
+              Our driving school is a pupil focused school. Driving instructors
+              are fully DVSA qualified and Approved Driving Instructors (ADI’s)
+              and provide a professional and courteous service.
+            </h1>
+          </Jump>
         </div>
       </div>
     );
