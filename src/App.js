@@ -3,6 +3,7 @@ import "./App.css";
 import { Route, NavLink, HashRouter } from "react-router-dom";
 import Home from "./Home";
 import Show from "./Show";
+import Review from "./Review";
 import Fade from "react-reveal/Fade";
 import Routes from "./Routes.js";
 import ShowDoc from "./Documents/show-doc.pdf";
@@ -43,6 +44,7 @@ function App() {
           <Route exact path='/' component={Home} />
           <Route path='/show' component={Show} />
           <Route path='/route' component={Routes} />
+          <Route path='/review' component={Review} />
         </div>
       </div>
     </HashRouter>

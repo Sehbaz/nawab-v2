@@ -144,6 +144,9 @@ a {
   padding: 1rem;
   text-align: center;
 }
+.rev-btn {
+  width: 100%;
+}
 @media only screen and (max-width: 600px) {
   .flex-box-container > img {
     max-height: 60%;

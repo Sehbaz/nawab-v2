@@ -6,6 +6,8 @@ import Correct from "./images/correct.svg";
 import Noextra from "./images/noextra.svg";
 import DiscountBlock from "./images/discount.svg";
 import Door from "./images/door.svg";
+import Review from "./Review";
+import { Route, NavLink, HashRouter } from "react-router-dom";
 
 class Home extends Component {
   render() {
@@ -142,11 +144,15 @@ class Home extends Component {
               </p>
             </div>
           </div>
-          <div className='myButton'>
-            <div className='flex-container'>
-              <p>See more reviews</p>
-            </div>
-          </div>
+          <HashRouter>
+            <NavLink to='/review'>
+              <div className='myButton rev-btn'>
+                <div className='flex-container'>
+                  <p>View more reviews</p>
+                </div>
+              </div>
+            </NavLink>
+          </HashRouter>
         </div>
       </div>
     );
