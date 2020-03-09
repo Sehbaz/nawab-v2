@@ -6,7 +6,6 @@ import Show from "./Show";
 import Fade from "react-reveal/Fade";
 import Routes from "./Routes.js";
 import ShowDoc from "./Documents/show-doc.pdf";
-import MainLogo from "./images/main-logo.jpeg";
 
 function App() {
   return (
@@ -16,9 +15,7 @@ function App() {
           <ul className='header navbar-container'>
             <div>
               <h3>
-                <NavLink to='/' style={{ color: `#00ce89` }}>
-                  <img src={MainLogo} className='mainLogo'></img>
-                </NavLink>
+                <NavLink to='/' style={{ color: `#00ce89` }}></NavLink>
               </h3>
             </div>
             <li>
