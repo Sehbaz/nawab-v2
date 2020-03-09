@@ -154,6 +154,64 @@ class Home extends Component {
             </NavLink>
           </HashRouter>
         </div>
+        <div>
+          <div className='medium-title'>
+            {" "}
+            <Fade>
+              <h1 style={{ textAlign: `center` }}>Our Prices</h1>
+            </Fade>
+          </div>
+          <div className='flex-container price-table-container'>
+            <table>
+              <tbody>
+                <tr>
+                  <td>Your First 10 hour block booking</td>
+                  <td>£230</td>
+                </tr>
+                <tr>
+                  <td>Standard Driving Lesson (within Leicester)</td>
+                  <td>£24 per hour</td>
+                </tr>
+                <tr>
+                  <td>Standard Driving Lesson (outside Leicester)</td>
+                  <td>£30 per hour</td>
+                </tr>
+                <tr>
+                  <td>Standard 5 hrs Block Booking</td>
+                  <td>£115 (£23 per hour)</td>
+                </tr>
+                <tr>
+                  <td>Standard 10 hrs Block Booking</td>
+                  <td>£230 (£23 per hour)</td>
+                </tr>
+                <tr>
+                  <td>Standard 20 hrs Block Booking</td>
+                  <td>£440 (£22 per hour)</td>
+                </tr>
+                <tr>
+                  <td>Motorway Tuition</td>
+                  <td>£30 per hour</td>
+                </tr>
+                <tr>
+                  <td>Refresher Course</td>
+                  <td>£27 per hour</td>
+                </tr>
+                <tr>
+                  <td>Pass Plus course (Minimum 6 hours)</td>
+                  <td>£180 (£30 per hour)</td>
+                </tr>
+                <tr>
+                  <td>Test Day Fee: Hire of car & 1hr lesson before test</td>
+                  <td>£80 (Weekdays)</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>£100 (Weekends)</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
       </div>
     );
   }
