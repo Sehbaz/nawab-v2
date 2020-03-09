@@ -125,6 +125,25 @@ a {
   text-align: center;
   padding: 0 10%;
 }
+.section-4 {
+  height: 80vh;
+  justify-content: space-evenly;
+  display: flex;
+  color: #4a4a4a;
+  text-align: center;
+  padding: 0 5%;
+  background-color: #f2f2f2;
+}
+.feedback-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.feedback-box {
+  width: 40%;
+  padding: 1rem;
+  text-align: center;
+}
 @media only screen and (max-width: 600px) {
   .flex-box-container > img {
     max-height: 60%;
@@ -150,5 +169,11 @@ a {
   }
   .section-3 {
     padding: 10vh 5vw;
+  }
+  .feedback-section {
+    flex-direction: column;
+  }
+  .feedback-box {
+    width: 90%;
   }
 }
