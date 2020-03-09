@@ -6,6 +6,7 @@ import Show from "./Show";
 import Fade from "react-reveal/Fade";
 import Routes from "./Routes.js";
 import ShowDoc from "./Documents/show-doc.pdf";
+import MainLogo from "./images/main-logo.jpeg";
 
 function App() {
   return (
@@ -15,22 +16,24 @@ function App() {
           <ul className='header navbar-container'>
             <div>
               <h3>
-                <NavLink to='/' style={{ color: `#00ce89` }}></NavLink>
+                <NavLink to='/' style={{ color: `#00ce89` }}>
+                  <img src={MainLogo} style={{ height: `14px` }}></img>
+                </NavLink>
               </h3>
             </div>
             <li>
               <NavLink to='/' className='navlink'>
-                HOME
+                <p>Home</p>
               </NavLink>
             </li>
             <li>
               <a href={ShowDoc} target='_blank' className='navlink'>
-                SHOW/TELL
+                <p>Show/Tell</p>
               </a>
             </li>
             <li>
               <NavLink to='/route' className='navlink'>
-                ROUTE
+                <p>Route</p>
               </NavLink>
             </li>
           </ul>

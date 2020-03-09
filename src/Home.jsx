@@ -8,7 +8,7 @@ import Pulse from "react-reveal/Pulse";
 import MainImage from "./images/main-bg2.png";
 import Mycar from "./images/my-car.svg";
 import Correct from "./images/correct.svg";
-import Noextra from "./images/door.svg";
+import Noextra from "./images/noextra.svg";
 import DiscountBlock from "./images/discount.svg";
 import Door from "./images/door.svg";
 
@@ -66,27 +66,47 @@ class Home extends Component {
               {" "}
               <img src={Door}></img>
             </div>
-            <div className='box flex-container flex-box-container'>
-              <h1>Door to door service</h1>
+            <div className='box flex-container flex-box-container box-2'>
+              <h1 style={{ textAlign: `center` }}>Door to door service</h1>
+              <p style={{ textAlign: `center` }}>
+                We provide pick and drop service from your home
+              </p>
             </div>
           </div>
           <div className='flex-container box-container'>
             <div className='box flex-container flex-box-container'>
               <img src={DiscountBlock}></img>
             </div>
-            <div className='box flex-container flex-box-container'>
-              <h1> Block booking discount</h1>
+            <div className='box flex-container flex-box-container box-2'>
+              <h1 style={{ textAlign: `center` }}> Block booking discount</h1>
+              <p style={{ textAlign: `center` }}>
+                Book a slot of 5 hours, 10 hours or 20 hours and get a special
+                discount
+              </p>
             </div>
           </div>
           <div className='flex-container box-container'>
-            <div className='box flex-container flex-box-container'>
+            <div className='box flex-container flex-box-container '>
               {" "}
               <img src={Noextra}></img>
             </div>
-            <div className='box flex-container flex-box-container'>
-              <h1>No extra cost for weekends</h1>
+            <div className='box flex-container flex-box-container box-2'>
+              <h1 style={{ textAlign: `center` }}>
+                No extra cost for weekends
+              </h1>
+              <p style={{ textAlign: `center` }}>
+                No need to worry about the extra charges on weekend lessons, you
+                can get your lessons as same price as weekday.
+              </p>
             </div>
           </div>
+        </div>
+        <div className='flex-container section-3'>
+          <h1>
+            Our driving school is a pupil focused school. Driving instructors
+            are fully DVSA qualified and Approved Driving Instructors (ADI’s)
+            and provide a professional and courteous service.
+          </h1>
         </div>
       </div>
     );
