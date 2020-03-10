@@ -180,6 +180,9 @@ a {
   width: 40%;
   margin: 10px;
 }
+.route-box > table > tr > td {
+  font-family: "MyFontMedium";
+}
 @media only screen and (max-width: 600px) {
   .flex-box-container > img {
     max-height: 60%;
