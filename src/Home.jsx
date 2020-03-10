@@ -106,13 +106,11 @@ class Home extends Component {
           </div>
         </div>
         <div className='flex-container section-3'>
-          <Jump>
-            <h1>
-              Our driving school is a pupil focused school. Driving instructors
-              are fully DVSA qualified and Approved Driving Instructors (ADI’s)
-              and provide a professional and courteous service.
-            </h1>
-          </Jump>
+          <h1>
+            Our driving school is a pupil focused school. Driving instructors
+            are fully DVSA qualified and Approved Driving Instructors (ADI’s)
+            and provide a professional and courteous service.
+          </h1>
         </div>
         <div className='flex-container section-4'>
           <h1>What our customers say</h1>
@@ -210,6 +208,14 @@ class Home extends Component {
                 </tr>
               </tbody>
             </table>
+            <Fade top>
+              <div className='myButton'>
+                <div className='flex-container'>
+                  <p>Book a Lesson</p>
+                  <p>07459775917</p>
+                </div>
+              </div>
+            </Fade>
           </div>
         </div>
       </div>

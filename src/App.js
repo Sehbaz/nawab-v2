@@ -47,6 +47,18 @@ function App() {
           <Route path='/review' component={Review} />
         </div>
       </div>
+      <div className='flex-container section-6'>
+        <p>
+          © 2020 Nawab School Of Motoring. All rights reserved. Created by
+          <a
+            href='https://www.sehbaz.com/'
+            style={{ textDecoration: "none", color: "white" }}
+          >
+            {" "}
+            Sehbaz Rafik
+          </a>
+        </p>
+      </div>
     </HashRouter>
   );
 }
